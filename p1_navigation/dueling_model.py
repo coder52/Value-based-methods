@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 class DuelingQNetwork(nn.Module):
-    def __init__(self, state_size, action_size, seed, fc1_units=64, fc2_units=64, dropout=0.25):
+    def __init__(self, state_size, action_size, seed, fc1_units=64, fc2_units=64, dropout=0):
         super(DuelingQNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
 
