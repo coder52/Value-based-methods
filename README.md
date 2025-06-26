@@ -40,33 +40,36 @@ To set up your python environment to run the code in this repository, follow the
 
 1. Download and install [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/?section=windows)
 
-2. Add new interpreter 
+2. Clone the repository using PyCharm's `Project From Version Control` option. 
+
+3. Add new interpreter 
+
 	![New interpreter][image3]
 
-3. Create new conda interpreter with python 3.6
+4. Create new conda interpreter with python 3.6 and name `drlnd`
+
 	![Conda interpreter][image4]
 	
-4. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
+5. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
 	- Install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
 	
-5. Open a terminal in PyCharm and clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+6. Open a terminal in PyCharm and navigate to the `python/` folder.  Then, install several dependencies.
 
 ````
-git clone https://github.com/coder52/Value-based-methods.git
+pip install torch==1.10.2+cpu torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 cd python
 pip install -e .
-pip install https://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-win_amd64.whl 
 ````
 
-6. Start the jupyter notebook in terminal by writing
-```` 
+7. Start the jupyter notebook in terminal by writing
+````
 cd ..
 jupyter notebook
 ````
 
-7. Enter the p1_navigation folder from notebook and open .ipynb file
-8. Follow the instructions in notebooks for training the agent
-9. To see what trained agents can do, you should run the `run_agent.py` and `run_dueling_agent.py` scripts.
+8. Enter the p1_navigation folder from notebook and open .ipynb file
+9. Follow the instructions in notebooks for training the agent
+10. To see what trained agents can do, you should run the `run_agent.py` and `run_dueling_agent.py` scripts.
 
 ## Want to learn more?
 
