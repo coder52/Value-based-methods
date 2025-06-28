@@ -4,6 +4,44 @@ from unityagents import UnityEnvironment
 from agent import Agent
 from collections import deque
 
+
+def load_environment(file_name: str, no_graphics: bool = True) -> tuple:
+    """Load Unity environment and return brain name and brain object."""
+    env = UnityEnvironment(file_name=file_name, no_graphics=no_graphics)
+    brain_name = env.brain_names[0]
+    brain = env.brains[brain_name]
+    return env, brain_name, brain
+
+
+def load_agent(checkpoint_path: str, dueling: bool) -> Agent:
+    """Initialize the agent and load pre-trained weights."""
+    agent = Agent(state_size=37, action_size=4, seed=0, dueling=dueling)
+    agent.qnetwork_local.load_state_dict(torch.load(checkpoint_path))
+    return agent
+
+
+def evaluate_agent(env, brain_name: str, agent: Agent) -> float:
+    """Run one episode and return the score."""
+    env_info = env.reset(train_mode=False)[brain_name]
+    state = env_info.vector_observations[0]
+    score = 0
+
+    while True:
+        action = agent.act(state)
+        env_info = env.step([action])[brain_name]
+        next_state = env_info.vector_observations[0]
+        reward = env_info.rewards[0]
+        done = env_info.local_done[0]
+
+        score += reward
+        state = next_state
+
+        if done:
+            break
+
+    return score
+
+
 def dqn_trainer(env, agent, n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.01, eps_decay=0.995, file_name="checkpoint"):
     """Deep Q-Learning.
 
