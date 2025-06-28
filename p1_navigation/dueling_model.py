@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 
 class DuelingQNetwork(nn.Module):
-    def __init__(self, state_size, action_size, seed, fc1_units=64, fc2_units=64, dropout=0):
+    def __init__(self, state_size, action_size, seed, fc1_units=64, fc2_units=64):
         super(DuelingQNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
 
@@ -16,7 +16,7 @@ class DuelingQNetwork(nn.Module):
         # Advantage stream
         self.advantage = nn.Linear(fc2_units, action_size)
         # Dropout
-        self.dropout = nn.Dropout(dropout)
+        self.dropout = nn.Dropout(0.25)
 
     def forward(self, state):
         x = F.relu(self.fc1(state))
