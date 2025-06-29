@@ -55,8 +55,8 @@ To set up your python environment to run the code in this repository, follow the
 5. Open a terminal in PyCharm and navigate to the `python/` folder.  Then, install several dependencies.
 
 ````
-pip install torch==1.10.2+cpu torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 cd python
+pip install torch==1.10.2+cpu torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 pip install -e .
 cd ..
 ````
