@@ -61,9 +61,6 @@ pip install -e .
 cd ..
 ````
 
-## How to run the code, to train the agent
-
-
 ## How to run the code, to train and test the agent
 
 1. Start the jupyter notebook in PyCharm-Terminal by writing `jupyter notebook`
