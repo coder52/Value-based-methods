@@ -6,6 +6,7 @@
 [image4]: /img/conda_py36_interpreter.jpg "Conda interpreter"
 [image5]: /img/start_notebook.jpg "start notebook"
 [image6]: /img/run_all.jpg "run all"
+[image7]: /img/run_agent.jpg "run agent"
 
 # Value-Based Methods
 
@@ -101,6 +102,8 @@ cd ..
 	![run all][image6]
 
 10. To see what trained agents can do, you should run the `run_agent.py` and `run_dueling_agent.py` scripts.
+
+	![run agent][image7]
 
 ## Want to learn more?
 
