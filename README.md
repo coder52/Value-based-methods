@@ -42,6 +42,27 @@ The labs and projects can be found below.  All of the projects use rich simulati
 - `Banana Collector` with [Deep Q-Networks (DQN)](https://github.com/coder52/Value-based-methods/blob/main/dqn/exercise/Deep_Q_Network.ipynb) | solved in 741 episodes
 - `Banana Collector` with [dueling Deep Q-Networks (dueling DQN)](https://github.com/coder52/Value-based-methods/blob/main/p1_navigation/Navigation.ipynb) | solved in 785 episodes
 
+### Resources
+
+- tensorflow==1.7.1
+- Pillow>=4.2.1
+- matplotlib
+- numpy>=1.11.0
+- notebook==6.1.5
+- pytest>=3.2.2
+- docopt
+- pyyaml
+- protobuf==3.5.2
+- grpcio==1.11.0
+- pandas
+- scipy
+- ipykernel
+- unityagents==0.4.0
+- gym==0.17.0
+- box2d-py
+- torch==1.10.2+cpu
+
+
 ## Instructions for installing dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
