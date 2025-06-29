@@ -34,7 +34,13 @@ The labs and projects can be found below.  All of the projects use rich simulati
 ## OpenAI Gym Benchmarks
 
 ### Box2d
-- `LunarLander-v2` with [Deep Q-Networks (DQN)](https://github.com/udacity/Value-based-methods/blob/main/dqn/solution/Deep_Q_Network_Solution.ipynb) | solved in 1504 episodes
+- `LunarLander-v2` with [Deep Q-Networks (DQN)](https://github.com/coder52/Value-based-methods/blob/main/dqn/exercise/Deep_Q_Network.ipynb) | solved in 824 episodes
+
+## Unity ML Benchmarks
+
+### Banana
+- `Banana Collector` with [Deep Q-Networks (DQN)](https://github.com/coder52/Value-based-methods/blob/main/dqn/exercise/Deep_Q_Network.ipynb) | solved in 741 episodes
+- `Banana Collector` with [dueling Deep Q-Networks (dueling DQN)](https://github.com/coder52/Value-based-methods/blob/main/p1_navigation/Navigation.ipynb) | solved in 785 episodes
 
 ## Instructions for installing dependencies
 
