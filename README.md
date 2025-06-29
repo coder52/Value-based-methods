@@ -52,7 +52,7 @@ To set up your python environment to run the code in this repository, follow the
 
 	![Conda interpreter][image4]
     	
-5. Open a terminal in PyCharm and navigate to the `python/` folder.  Then, install several dependencies.
+5. Open a terminal in PyCharm.  Then, install several dependencies.
 
 ````
 cd python
