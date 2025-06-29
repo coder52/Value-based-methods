@@ -4,6 +4,8 @@
 [image2]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Kernel"
 [image3]: /img/add_interpreter.jpg "New interpreter"
 [image4]: /img/conda_py36_interpreter.jpg "Conda interpreter"
+[image5]: /img/start_notebook.jpg "start notebook"
+[image6]: /img/run_all.jpg "run all"
 
 # Value-Based Methods
 
@@ -34,7 +36,7 @@ The labs and projects can be found below.  All of the projects use rich simulati
 ### Box2d
 - `LunarLander-v2` with [Deep Q-Networks (DQN)](https://github.com/udacity/Value-based-methods/blob/main/dqn/solution/Deep_Q_Network_Solution.ipynb) | solved in 1504 episodes
 
-## Dependencies
+## Instructions for installing dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -49,26 +51,31 @@ To set up your python environment to run the code in this repository, follow the
 4. Create new conda interpreter with python 3.6 and name `drlnd`
 
 	![Conda interpreter][image4]
-	
-5. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
-	- Install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
-	
-6. Open a terminal in PyCharm and navigate to the `python/` folder.  Then, install several dependencies.
+    	
+5. Open a terminal in PyCharm and navigate to the `python/` folder.  Then, install several dependencies.
 
 ````
 pip install torch==1.10.2+cpu torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 cd python
 pip install -e .
-````
-
-7. Start the jupyter notebook in terminal by writing
-````
 cd ..
-jupyter notebook
 ````
 
-8. Enter the p1_navigation folder from notebook and open .ipynb file
-9. Follow the instructions in notebooks for training the agent
+## How to run the code, to train the agent
+
+
+## How to run the code, to train the agent
+
+1. Start the jupyter notebook in PyCharm-Terminal by writing `jupyter notebook`
+	
+	![start notebook][image5]
+
+2. Enter the p1_navigation folder from notebook and open .ipynb file
+3. Follow the instructions in notebooks for training the agent
+4. Or you can click just 
+
+	![run all][image6]
+
 10. To see what trained agents can do, you should run the `run_agent.py` and `run_dueling_agent.py` scripts.
 
 ## Want to learn more?
