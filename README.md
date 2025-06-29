@@ -67,7 +67,7 @@ cd ..
 	
 	![start notebook][image5]
 
-2. Enter the p1_navigation folder from notebook and open .ipynb file
+2. Enter the p1_navigation folder from notebook and open `Navigation.ipynb` file
 3. Follow the instructions in notebooks for training the agent
 4. Or you can click just 
 
