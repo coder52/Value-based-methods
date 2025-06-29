@@ -19,22 +19,28 @@ This repository contains material related to Udacity's Value-based Methods cours
 
 The tutorials lead you through implementing various algorithms in reinforcement learning.  All of the code is in PyTorch (v0.4) and Python 3.
 
-* [Deep Q-Network](https://github.com/udacity/Value-based-methods/tree/main/dqn): Explore how to use a Deep Q-Network (DQN) to navigate a space vehicle without crashing.
+* [Deep Q-Network](https://github.com/coder52/Value-based-methods/tree/main/dqn): Explore how to use a Deep Q-Network (DQN) to navigate a space vehicle without crashing.
 
 ### Labs / Projects
 
 The labs and projects can be found below.  All of the projects use rich simulation environments from [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents).
 
-* [Navigation](https://github.com/udacity/Value-based-methods/tree/main/p1_navigation): In the first project, you will train an agent to collect yellow bananas while avoiding blue bananas.
+* [Navigation](https://github.com/coder52/Value-based-methods/tree/main/p1_navigation): In the first project, you will train an agent to collect yellow bananas while avoiding blue bananas.
 
 ### Resources
 
-* [Cheatsheet](https://github.com/udacity/Value-based-methods/tree/main/cheatsheet): You are encouraged to use [this PDF file](https://github.com/udacity/Value-based-methods/blob/main/cheatsheet/cheatsheet.pdf) to guide your study of reinforcement learning. 
+* [Cheatsheet](https://github.com/coder52/Value-based-methods/tree/main/cheatsheet): You are encouraged to use [this PDF file](https://github.com/udacity/Value-based-methods/blob/main/cheatsheet/cheatsheet.pdf) to guide your study of reinforcement learning. 
 
 ## OpenAI Gym Benchmarks
 
 ### Box2d
-- `LunarLander-v2` with [Deep Q-Networks (DQN)](https://github.com/udacity/Value-based-methods/blob/main/dqn/solution/Deep_Q_Network_Solution.ipynb) | solved in 1504 episodes
+- `LunarLander-v2` with [Deep Q-Networks (DQN)](https://github.com/coder52/Value-based-methods/blob/main/dqn/exercise/Deep_Q_Network.ipynb) | solved in 824 episodes
+
+## Unity ML Benchmarks
+
+### Banana
+- `Banana Collector` with [Deep Q-Networks (DQN)](https://github.com/coder52/Value-based-methods/blob/main/dqn/exercise/Deep_Q_Network.ipynb) | solved in 741 episodes
+- `Banana Collector` with [dueling Deep Q-Networks (dueling DQN)](https://github.com/coder52/Value-based-methods/blob/main/p1_navigation/Navigation.ipynb) | solved in 785 episodes
 
 ## Instructions for installing dependencies
 
