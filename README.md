@@ -29,7 +29,7 @@ The labs and projects can be found below.  All of the projects use rich simulati
 
 ### Resources
 
-* [Cheatsheet](https://github.com/coder52/Value-based-methods/tree/main/cheatsheet): You are encouraged to use [this PDF file](https://github.com/udacity/Value-based-methods/blob/main/cheatsheet/cheatsheet.pdf) to guide your study of reinforcement learning. 
+* [Cheatsheet](https://github.com/coder52/Value-based-methods/tree/main/cheatsheet): You are encouraged to use [this PDF file](https://github.com/coder52/Value-based-methods/blob/main/cheatsheet/cheatsheet.pdf) to guide your study of reinforcement learning. 
 
 ## OpenAI Gym Benchmarks
 
