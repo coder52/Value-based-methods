@@ -42,7 +42,7 @@ The labs and projects can be found below.  All of the projects use rich simulati
 - `Banana Collector` with [Deep Q-Networks (DQN)](https://github.com/coder52/Value-based-methods/blob/main/dqn/exercise/Deep_Q_Network.ipynb) | solved in 741 episodes
 - `Banana Collector` with [dueling Deep Q-Networks (dueling DQN)](https://github.com/coder52/Value-based-methods/blob/main/p1_navigation/Navigation.ipynb) | solved in 785 episodes
 
-### Resources
+### Dependencies
 
 - tensorflow==1.7.1
 - Pillow>=4.2.1
